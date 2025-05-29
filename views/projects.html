@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+ <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+
+    <style>
+
+        body {
+        background-color: #f8f8f8; 
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-link {
+            color: #fff; 
+        }
+
+        .main-photo {
+            max-width: 400px;
+            margin-right: 20px;
+        }
+
+        .footer {
+            background-color: #333; 
+        }
+
+        .btn-social-icon i {
+            font-size: 40px;
+            color: #fff; 
+        }
+        .carousel-image {
+        width: 500%; 
+        height: 800px; 
+        object-fit: cover; 
+        }
+        .carousel-caption {
+          background-color: rgba(255, 255, 255, 0.5); 
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../views/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../views/hobbies.html">Hobbies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" aria-current="page" href="../views/projects.html">Projects</a>
+
+              
+              <ul class="dropdown-menu">
+                <li><hr class="dropdown-divider"></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <li><a class="dropdown-item" href="#"></a></li>
+            </li>
+          </ul>
+
+          <div class="ms-auto">
+            <img src="../resources/img/r2d2.jpeg" width="70px" />
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div id="projects" class="carousel slide" data-bs-ride="carousel">
+    <div id="projects" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators" id="carousel-bottom-indicators">
+        <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Project 1"></button>
+        <button type="button" data-bs-target="#projects" data-bs-slide-to="1" aria-label="Project 2"></button>
+        <button type="button" data-bs-target="#projects" data-bs-slide-to="2" aria-label="Project 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="carousel-item-1">
+          <img src="../resources/img/project.jpeg" class="d-block mx-auto carousel-image img-fluid" alt="Project 1">
+          <div class="carousel-caption d-none d-md-block card text-black">
+            <h5>SSO</h5>
+            <p>Implementation and testing of Single Sign-On functionality, ensuring seamless authentication and secure access across integrated systems. I collaborate with development teams to integrate SSO solutions, conduct thorough testing to validate functionality and security, and provide support to end-users during the deployment phase.</p>
+          </div>
+        </div>
+        <div class="carousel-item" id="carousel-item-2">
+          <img src="../resources/img/project2.jpeg" class="d-block mx-auto carousel-image img-fluid" alt="Project 2">
+          <div class="carousel-caption d-none d-md-block card text-black">
+            <h5>Financial Tab</h5>
+            <p>As a tester for the web application designed for nurses in home health and hospice, my primary focus was on testing the financial tab, which covers various aspects from the initial appointment setup to payroll processing. This encompassed testing functionalities related to billing, invoicing, payment tracking, and payroll management throughout the entire patient care cycle. </p>
+          </div>
+        </div>
+        <div class="carousel-item" id="carousel-item-3">
+          <img src="../resources/img/project3.jpeg" class="d-block mx-auto carousel-image img-fluid" alt="Project 3">
+          <div class="carousel-caption d-none d-md-block card text-black">
+            <h5>Personal Website</h5>
+            <p>One of my projects is the development of my personal website, designed and implemented using HTML and CSS. It serves as a platform to showcase my skills, experiences, and portfolio in a visually appealing and user-friendly manner.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#projects" data-bs-slide="prev" id="carousel-prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#projects" data-bs-slide="next" id="carousel-next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+    <div class="footer fixed-bottom" id="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <a href="https://www.facebook.com" class="btn btn-social-icon btn-facebook"><i class="fab fa-facebook"></i></a>
+                  <a href="https://twitter.com" class="btn btn-social-icon btn-twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com" class="btn btn-social-icon btn-instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>
